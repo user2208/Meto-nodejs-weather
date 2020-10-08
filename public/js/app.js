@@ -1,9 +1,3 @@
-console.log('java script file is up and running')
-
-
-
-
-
 
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
