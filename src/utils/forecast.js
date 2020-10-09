@@ -9,7 +9,8 @@ const forecast = (latitude, longitude , callback ) => {
         }else if (body.error) {
             callback('Location is missspeled',undefined)
         }else {
-            callback (undefined, 'It is currently '+ body.current.temperature + ' and outside it fells like ' +  body.current.feelslike)
+           
+            callback (undefined, 'It is currently '+ body.current.temperature + '℃, and feels like  ' +  body.current.feelslike + '℃. Wind speed at the moment is ' + body.current.wind_speed + 'km per hour.')
 
         }
 
