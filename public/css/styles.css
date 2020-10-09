@@ -57,5 +57,8 @@ button {
 }
 .weather1 {
     width: 100px;
+    position: relative;
+    left: 260px;
+    bottom: 180px;
 }
 
